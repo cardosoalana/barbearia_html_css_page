@@ -1,0 +1,48 @@
+body{
+	font-family: monospace;
+}
+
+header{
+	display: block;
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.cabecalho{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top:110px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+
+footer {
+	text-align: center;
+	background: url("bg.JPG");
+	padding: 40px 
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 10px;
+	margin-top: 20px;
+}
