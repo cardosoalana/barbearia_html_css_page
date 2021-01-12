@@ -11,7 +11,7 @@
 		<header>
 			<div class="cabecalho">
 				<h1>
-					<img class="img_logo" src="logo.PNG">
+					<img class="img_logo" src="logo.PNG" alt="Logo da Barbearia Alura">
 				</h1>
 
 				<nav>
@@ -22,14 +22,47 @@
 					</ul>
 				</nav>	
 			</div>		
-		</header>]
+		</header>
 
 		<main>
-			teste
+			<form>
+				<label for="text_username" class="input_padrao">Insira o seu nome completo:</label>
+				<input type="name" id="text_username" class="edt_text_padrao" required>
+
+				<label for="text_email" class="input_padrao">Insira o seu e-mail:</label>
+				<input type="email" id="text_email" class="edt_text_padrao" required placeholder="user@exemple.com">
+
+				<label for="text_phone" class="input_padrao">Insira o seu celular:</label>
+				<input type="tel" id="text_phone" class="edt_text_padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="text_message" class="input_padrao"> Insira sua mensagem:</label>
+				<textarea cols="70" rows="10" id="text_message" class="edt_text_padrao" required></textarea> 
+
+				<fieldset>
+					<legend class="input_padrao">Como prefere o nosso contato?</legend>
+
+					<label for="radio_email" class="radio_button"><input type="radio" name="contato" value="e-mail" id="radio_email">Email</label>
+					<label for="radio_phone"><input type="radio" name="contato" value="phone" id="radio_phone">Ligação</label>
+					<label for="radio_whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio_whatsapp" checked>WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fildset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+				<input id="enviar" type="submit" value="Enviar formulário">
+			</form>
 		</main>
 
 		<footer>
-			<img src="logo-branco.PNG">
+			<img src="logo-branco.PNG" alt="Logo da Barbearia Alura">
 			<p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
 		</footer>
 	</body>

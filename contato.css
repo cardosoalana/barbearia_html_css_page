@@ -33,7 +33,47 @@ nav a{
 	text-decoration: none;
 }
 
+main {
+	width: 100%;
+	height: auto;
+}
 
+form {
+	margin: 40px 40px;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 18px;
+	margin: 0 0 20px;
+}
+
+.input_padrao, .edt_text_padrao{
+	display: block;
+	margin: 0 0 5px;
+	padding: 10px 0;
+	width: 50%;
+}
+
+
+.checkbox {
+	margin: 20px 0;
+}
+
+#enviar {
+	display: block;
+	padding: 15px 10%;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s background;
+}
+
+#enviar:hover{
+	background: green;
 
 footer {
 	text-align: center;
