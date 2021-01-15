@@ -33,6 +33,10 @@ nav a{
 	text-decoration: none;
 }
 
+nav a:hover {
+	color: #C78C19;
+}
+
 main {
 	width: 100%;
 	height: auto;
@@ -64,16 +68,35 @@ form label, form legend {
 	display: block;
 	padding: 15px 10%;
 	background: orange;
+	margin: 0 15px;
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
 	border: none;
 	border-radius: 5px;
-	transition: 1s background;
+	transition: 1s all;
 }
 
 #enviar:hover{
 	background: green;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid black;
+	padding: 15px 20px;
+	font-size: 16px;
+}
 
 footer {
 	text-align: center;
